@@ -1,8 +1,6 @@
 package se.loftux.modules.smarttenant;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
 import org.alfresco.web.site.servlet.SlingshotLoginController;
-import org.apache.commons.httpclient.auth.AuthScheme;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.extensions.config.WebFrameworkConfigElement;

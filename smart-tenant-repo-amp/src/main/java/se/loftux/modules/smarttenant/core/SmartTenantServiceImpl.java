@@ -85,7 +85,7 @@ public class SmartTenantServiceImpl implements SmartTenantService {
     }
 
     public List<SmartTenantPersonInfo> getPeopleByEmailFTS(String email){
-        String searchQuery = "TYPE:\"cm:person\" AND cm:email:" + email;
+        String searchQuery = "TYPE:\"cm:person\" AND =@cm:email:\"" + email + "\"";
         SearchParameters params = new SearchParameters();
         params.setQuery(searchQuery);
         params.setLanguage(SearchService.LANGUAGE_FTS_ALFRESCO);
