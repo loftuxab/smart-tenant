@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="smartTenantPeople" class="se.loftux.core.replacer.patching.ImplementationClassReplacingBeanFactoryPostProcessor">
+        <property name="targetBeanName" value="personService" />
+        <property name="originalClassName" value="org.alfresco.repo.security.person.PersonServiceImpl" />
+        <property name="replacementClassName" value="se.loftux.modules.smarttenant.overrides.SmartTenantPersonServiceImpl" />
+        <property name="active" value="true" />
+    </bean>
+</beans>

@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Find person</shortname>
+  <description>Find a person via his/her email address</description>
+  <url>/smarttenant/person/find-person?email={email}</url>
+  <format default="json">extension</format>
+  <authentication runas="admin">none</authentication>
+  <transaction>required</transaction>
+</webscript>

@@ -1,0 +1,7 @@
+overlays
+target
+alf_data
+*.log
+*.log.*
+*.iml
+.idea

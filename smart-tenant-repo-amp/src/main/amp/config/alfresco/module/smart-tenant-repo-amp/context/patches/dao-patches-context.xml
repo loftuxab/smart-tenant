@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!--<bean class="patching.PropertyAlteringBeanFactoryPostProcessor">-->
+        <!--<property name="targetBeanName" value="propertyValueDAO" />-->
+        <!--<property name="propertyName" value="converter" />-->
+        <!--<property name="beanReferenceName" value="${project.artifactId}-betterDefaultPropertyTypeConverter" />-->
+        <!--<property name="active" value="true" />-->
+    <!--</bean>-->
+
+    <!--<bean id="${project.artifactId}-betterDefaultPropertyTypeConverter" class="de.axelfaust.examples.dao.BetterDefaultPropertyTypeConverter" />-->
+
+</beans>
